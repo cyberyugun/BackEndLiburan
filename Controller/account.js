@@ -133,13 +133,13 @@ module.exports ={
 				let smtpTransport = nodemailer.createTransport({
 					service: 'Gmail',
 					auth: {
-						user: 'notification.ur@gmail.com',
-						pass: 'notification@ur90'
+						user: 'noreplycbrcompany@gmail.com',
+						pass: 'y153m534'
 					}
 				});
 				let mailOptions = {
 					to: user.email,
-					from: 'notification.ur@gmail.com',
+					from: 'noreplycbrcompany@gmail.com',
 					subject: 'Password Reset',
 					text: 'ini password email kamu:\n\n' +
 						'Password:' + token
