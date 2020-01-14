@@ -7,9 +7,9 @@ const Sequelize = require('sequelize');
 
 
 // online
-const sequelize = new Sequelize('sql12316404', 'sql12316404', 'rwDZ7PY5iT', {
+const sequelize = new Sequelize('RJcWxuKtvm', 'RJcWxuKtvm', 'sjSuQVV4E2', {
     dialect: 'mysql',
-    host: 'sql12.freesqldatabase.com'
+    host: 'remotemysql.com'
 });
 
 module.exports = sequelize;
